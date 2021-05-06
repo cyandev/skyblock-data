@@ -1,0 +1,25 @@
+{
+  "name": "skyblock-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "start \"\" /d \"C:/Program Files/MongoDB/Server/4.4/bin\" mongod.exe --dbpath D:/mongodb & node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyandev/skyblock-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyandev/skyblock-data/issues"
+  },
+  "homepage": "https://github.com/cyandev/skyblock-data#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  }
+}
